@@ -5,5 +5,7 @@ while a < len(my_list):
     a = a + 1
     if my_list[a] > 0:
         continue
-    if my_list[a] < 0:
+    if my_list[a] == 0:
+        a = a + 1
+    else :
         break
